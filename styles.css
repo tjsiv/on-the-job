@@ -1,0 +1,200 @@
+body{
+    background-image: url('https://i.imgur.com/APjH3Mw.jpg');
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    
+  }
+  h1, h2, h3, h4 {
+    font-family: "Arial";
+    color: #ebb734;
+    
+  }
+  h2 {
+    font-size: 200%;
+  }
+  h3 {
+    font-size: 150%;
+  }
+  span{
+    padding-left: 10%;
+    
+  }
+  ul{
+      list-style-type: none;
+  }
+  footer{
+    margin: 0 auto;
+    color:white;
+    width:80%;
+    
+  }
+  /* above is general heading styling including font type and colors */
+  #cover{
+    background: #ffffff;
+    opacity: 0.9;
+  }
+  #storeLogo{
+    display: none;
+    
+  }
+  #infoAbout{
+    margin: 0 auto;
+    background: #ffffff;
+    text-align: center;
+    font-size: 103%;
+    width: 100%;
+  }
+  #mathFav{
+    display: none;
+    margin: 0 auto;
+    background: #a14c1f;
+    text-align: center;
+    font-size: 205%;
+    width: 100%;
+  }
+  #qtrMenu{
+    display: none;
+    margin: 0 auto;
+    background: #f78e57;
+    text-align: center;
+    font-size: 150%;
+    width: 100%;
+    
+  }
+  #storeLocation{
+    display: none;
+    margin: 0 auto;
+    background: #a14c1f;
+    text-align: center;
+    font-size: 203%;
+    width: 100%;
+  }
+  .hoursTbl{
+    display: none;
+    margin: 0 auto;
+    background: #f78e57;
+    text-align: center;
+    font-size: 103%;
+    width: 100%;
+    padding: 3%;
+    
+  }
+  
+  .logoPic{
+    
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  /* fg*/
+  .list-link {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    position: fixed;
+    top: 0;
+    width: 25%;
+    overflow: auto;
+  
+  
+    border: ridge #ffba70;
+    height: 4%;
+    width: 100%;
+    background: #ffba70;
+    opacity: 0.8;
+  }
+  /* fg*/
+  .navItem{
+     float: left;
+    padding-left: 4%;
+    
+  }
+  
+  
+  .fibonacci-title {
+    color: #bf4311; 
+    font-size: 250%
+  }
+  
+  .abText {
+    width: 60%;
+    margin: 0 auto;
+    font-size: 125%;
+  }
+  
+  .qtr-menuGallery{
+    display:flex;
+    justify-content: space-evenly;
+    flex-wrap: no-wrap;
+    width: 80%;
+    align-items: stretch;
+    margin: 0 auto;
+  }
+  
+  .bannerFood{
+    width: 40%;
+    margin: 5px;
+    
+  }
+  
+  .qtr-menu-title {
+    text-align: center;
+    
+  }
+  
+  
+  
+  
+  /* below is quarterly menu table styling. */
+  table {
+        border-collapse: collapse;
+        padding-right: 10%;
+        margin-left:35%;
+        width: 100%;
+        
+      }
+  
+      th {
+        background-color: #f2f2f2;
+        border: 1px solid #dddddd;
+        padding: 2%;
+          font-family: "Arial";
+        font-size:160%;
+      }
+  
+        td {
+        border: 4px groove black;
+        font-family: "Helvetica";
+        font-size: 108%;
+        text-align: center;
+        padding: 4px;
+      }
+  
+      .wrap-section,
+      .sides-section {
+        width: 50%;
+        float: center;
+      }
+  
+  
+  .time{
+    font-size: 150%;
+    
+  }
+  
+  .footIcon{
+    margin-left: 20%;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: no-wrap;
+    width: 100%;
+    
+    
+  }
+  
+  .socLink{
+    width: 25%;
+  }
+  
+  
